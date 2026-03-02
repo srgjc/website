@@ -89,6 +89,10 @@ header p {
     box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.15);
 }
 
+.interest-list {
+    margin-left: 1em;
+}
+
 .card:hover {
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2); 
     transform: translateY(-3px);
