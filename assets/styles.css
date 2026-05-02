@@ -1,13 +1,13 @@
 :root {
     --bg: #32302f;
-    --selected: #3c3836;
+    --card: #2f2d2c;
     --text: #c5c5c5;
     --text-soft: #959595;
     --accent: #504945;
     --accent-hover: #62605a;
-    --green: #98971a;
-    --blue: #458588;
-    --purple: #b16286;
+    --green: #c2c144;
+    --blue: #74b0b3;
+    --purple: #c982a2;
     --radius: 14px;
 }
 
@@ -33,21 +33,6 @@ body {
     font-family: "JetBrains Mono", monospace;
     line-height: 1.6;
     padding: 2rem;
-}
-
-body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-
-    background:
-        radial-gradient(circle at 30% 30%, #5d5956, transparent 60%),
-        radial-gradient(circle at 70% 60%, #7c746f, transparent 60%),
-        radial-gradient(circle at 50% 80%, #4d4b4b, transparent 60%);
-
-    filter: blur(50px);
-    opacity: 0.8;
 }
 
 header {
@@ -96,7 +81,7 @@ header p {
 }
 
 .card {
-    background: rgba(0, 0, 0, 0.15);
+    background: var(--card);
     padding: 2.25rem;
     border-radius: 1.5rem;
     border-color: var(--accent);
@@ -122,7 +107,6 @@ a.button {
     border-radius: 5rem;
     border-width: 0.05rem;
     border-style: solid;
-    background: rgba(0, 0, 0, 0);
     color: var(--text-soft);
     text-decoration: none;
     font-weight: 500;
