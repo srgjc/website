@@ -1,111 +1,142 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sergio Jimenez</title>
-    <link rel="stylesheet" href="assets/styles.css">
-    <link rel="icon" href="assets/favicon.jpg">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sergio Jimenez</title>
+        <link rel="stylesheet" href="assets/styles.css" />
+        <link rel="icon" href="assets/favicon.jpg" />
+    </head>
 
-<body>
+    <body>
+        <br />
 
-    <br>
+        <header>
+            <img src="assets/avatar.jpg" class="avatar" />
+            <div class="header-text">
+                <h1>SERGIO JIMENEZ</h1>
+                <p>
+                    Software engineer with an interest in computers, philosophy,
+                    history and science.
+                </p>
+                <p>I also enjoy weightlifting, running and skiing.</p>
+                <p></p>
+            </div>
+        </header>
 
-    <header>
-        <img src="assets/avatar.jpg" class="avatar">
-        <div class="header-text">
-            <h1>SERGIO JIMENEZ</h1>
-            <p>Computer science graduate with an interest in computers, philosophy, history and science.</p>
-            <p>I also enjoy weightlifting, running and skiing.<p>
-        </div>
-    </header>
+        <br />
 
-    <br>
+        <div class="container">
+            <div class="card">
+                <h2>Current Interests</h2>
+                <br />
+                <div class="interest-list">
+                    <ul>
+                        <li>
+                            I am currently building a shared pomodoro timer web
+                            application with Spring Boot and Kotlin.
+                        </li>
+                        <li>
+                            I recently moved away from MacOS to NixOS and have
+                            been learning a lot about the Nix language and the
+                            intricacies of this declarative Linux operating
+                            system.
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-    <div class="container">
+            <br />
 
-        <div class="card">
-            <h2>🔍 Current Interests</h2>
-            <br>
-            <div class="interest-list">
-                <ul>
-                    <li>
-                        I am currently building a shared pomodoro timer Web App with Spring Boot and Kotlin. 
-                    </li>
-                    <li>
-                        I am also learning Go and building some simple TUIs.
-                    </li>
-                </ul>
+            <div class="card">
+                <h2>Work Experience</h2>
+
+                <br />
+
+                <h3>Sokratel GmbH - Software Engineer SCADA & IoT</h3>
+
+                <div class="date">
+                    <p>Apr 26 - Now</p>
+                </div>
+                <br />
+                <p>
+                    I am currently working as a software enginner in the field
+                    of renewable energy (Wind).
+                </p>
+
+                <br />
+
+                <h3>Novomind AG - Working Student</h3>
+
+                <div class="date">
+                    <p>Aug 22 - Nov 25</p>
+                </div>
+                <br />
+                <p>
+                    During my studies, I worked on Java backend development in
+                    the e-commerce field.
+                </p>
+            </div>
+            <br />
+
+            <div class="card">
+                <h2>Projects</h2>
+
+                <br />
+
+                <h3>
+                    Python Adapter for a Java-written Runtime Monitoring Tool
+                </h3>
+                <br />
+                <p>
+                    Designed, implemented and integrated a Python Virtual
+                    Machine Adapter into the open-source UML-based Specifcation
+                    Environment (USE), a tool for modeling and monitoring
+                    information systems, in order to support the runtime
+                    monitoring of Python programms making use of Microsoft's
+                    Debugpy library.
+                </p>
+                <a
+                    href="https://github.com/useocl/plugin_monitor/tree/python_adapter"
+                    target="_blank"
+                    class="button"
+                    >View Project</a
+                >
+
+                <br />
+
+                <br />
+
+                <h3>
+                    SNEAK Game with Neuro Evolution of Augmenting Topologies
+                    (NEAT)
+                </h3>
+                <br />
+                <p>
+                    Developed a Sneak game and utilized the NEAT-Python library
+                    to enable the game to learn and improve autonomously over
+                    multiple generations.
+                </p>
+                <a
+                    href="https://github.com/srgjc/neat-snake"
+                    target="_blank"
+                    class="button"
+                    >View Project</a
+                >
+            </div>
+            <br />
+            <div class="card">
+                <h2>Education</h2>
+
+                <br />
+
+                <h3>HAW Hamburg - Applied Computer Science (B.Sc.)</h3>
+                <div class="date">
+                    <p>Okt 21 - Dec 25</p>
+                </div>
             </div>
         </div>
 
-        <br>
-
-        <div class="card">
-            <h2>💻 Work Experience</h2>
-
-            <br>
-
-            <h3>novomind AG - Java Backend Developer</h3>
-
-            <p>
-                Aug 22 - Nov 25
-            </p>
-            <br>
-            <p>
-                During my bachelor, I worked at novomind AG as a working student on Java backend development for e-commerce shops, using Java Spring, 
-                Maven, Docker, Kubernetes, and Gatling. I handled client requirement analysis, feature design and implementation, and 
-                production deployment oversight.
-            </p>
-        </div>
-
-        <br>
-
-        <div class="card">
-            <h2>🧩 Projects</h2>
-
-            <br>
-
-            <h3>Python Adapter for a Java-written Runtime Monitoring Tool</h3>
-            <br>
-            <p>
-                Designed, implemented and integrated a Python Virtual Machine Adapter into the open-source UML-based Specifcation Environment (USE), a tool
-                for modeling and monitoring information systems, in order to support the runtime monitoring of Python programms making use of 
-                Microsoft's Debugpy library.
-            </p>
-            <a href="https://github.com/useocl/plugin_monitor/tree/python_adapter" target="_blank" class="button">View Project</a>
-
-            <br>
-            <br>
-
-            <h3>SNEAK Game with Neuro Evolution of Augmenting Topologies (NEAT)</h3>
-            <br>
-            <p>
-                Developed a Sneak game and utilized the NEAT-Python library to enable the game to learn and improve autonomously over multiple generations.
-            </p>
-            <a href="https://github.com/srgjc/neat-snake" target="_blank" class="button">View Project</a>
-         </div>
-        
-         <br>
-
-         <div class="card">
-            <h2>🏛️ Education</h2>
-
-            <br>
-
-            <h3>Hamburg Univesity of Applied Sciences - Applied Computer Science (B.Sc.)</h3>
-            <p>
-                WS21 - WS25
-            </p>
-            <p>Grade: 2,0</p>
-        </div>
-
-    </div>
-
-    <footer>
-        © 2025 Sergio Jimenez
-    </footer>
-
-</body>
+        <footer>© 2026 Sergio Jimenez</footer>
+    </body>
 </html>
