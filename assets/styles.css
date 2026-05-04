@@ -1,6 +1,6 @@
 :root {
     --bg: #32302f;
-    --card: #2f2d2c;
+    --card: #0b1f22;
     --text: #c5c5c5;
     --text-soft: #959595;
     --accent: #504945;
@@ -27,12 +27,14 @@
 }
 
 body {
-    background: var(--bg);
+    background: linear-gradient(to top, #0b1f22 0%, #163a3d 100%);
     color: var(--text);
     font-weight: bold;
     font-family: "JetBrains Mono", monospace;
     line-height: 1.6;
     padding: 2rem;
+    margin: 0;
+    min-height: 100vh;
 }
 
 header {
@@ -115,13 +117,8 @@ a.button {
 
 a {
     text-decoration: underline;
-    color: var(--text);
-}
-
-a.button:hover {
-    opacity: 0.9;
-    border-color: var(--text);
-    color: var(--text);
+    color: var(--green);
+    cursor: pointer;
 }
 
 footer {
