@@ -26,6 +26,10 @@
         format("woff2-variations");
 }
 
+html {
+    background: var(--card);
+}
+
 body {
     background: linear-gradient(to top, #0b1f22 0%, #163a3d 100%);
     color: var(--text);
